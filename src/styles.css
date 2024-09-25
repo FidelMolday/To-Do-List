@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  color: #332d36;
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: center;
+}
+body {
+  background: skyblue;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* background: skyblue; */
+  padding: 1rem;
+
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+button,
+input {
+  all: unset;
+  color: blue;
+  -webkit-text-fill-color: blue;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: left;
+  cursor: text;
+  background: whitesmoke;
+  /* outline-width: 0.1rem; */
+  box-shadow: 1px 2px 5px 1px;
+}
+
+[type="submit"] {
+  padding: 1rem;
+  margin-left: 0.5rem;
+  background: whitesmoke;
+  border-radius: 10px;
+
+  box-shadow: 1px 4px 1px 1px;
+}
+
+[type="submit"]:active {
+  box-shadow: 1px 2px 1px 1px;
+}
+.todo-list {
+  background: wheat;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  /* overflow: scroll; */
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.formtodo {
+  /* background: whitesmoke; */
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 550px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.not-done,
+.done {
+  border-radius: 10px 0 0 10px;
+  border: none;
+  text-align: left;
+  padding: 1rem;
+}
+
